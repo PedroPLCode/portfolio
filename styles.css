@@ -1,0 +1,84 @@
+/* General styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    background-color: black;
+    color: lime;
+    line-height: 1.6;
+    font-size: 18px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+header h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+h2 {
+    font-size: 2em;
+    margin-top: 30px;
+    text-decoration: underline;
+    color: lightgreen;
+}
+
+ul {
+    list-style: none;
+    margin-top: 20px;
+    font-size: 1.1em;
+}
+
+ul li {
+    margin: 10px 0;
+}
+
+ul li a {
+    color: lightgreen;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+}
+
+footer p {
+    font-size: 1.1em;
+}
+
+footer a {
+    color: lightgreen;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+a {
+    color: lightgreen;
+}
