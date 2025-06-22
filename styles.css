@@ -84,7 +84,8 @@ footer {
 
 @media (max-width: 600px) {
     .container {
-        padding: 12px 4px;
+        padding: 12px;
+        margin: 12px;
         max-width: 98vw;
     }
     header h2.typewriter {
@@ -92,6 +93,10 @@ footer {
     }
     section, footer {
         font-size: 0.98em;
+    }
+    footer {
+        margin-bottom: 0px;
+        padding-bottom: 0px;
     }
     ul {
         padding-left: 0.8em;
