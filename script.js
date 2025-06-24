@@ -1,6 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
     const terminal = document.getElementById("terminal");
     const terminalContainer = document.getElementById("terminal-container");
+    const scrollBottomAnchor = document.getElementById("scroll-bottom-anchor");
 
     fetch("data.json")
         .then(response => response.json())
@@ -10,7 +11,10 @@ document.addEventListener("DOMContentLoaded", () => {
             let currentChar = 0;
 
             function typeLine() {
-                if (currentLine >= lines.length) return;
+                if (currentLine >= lines.length) {
+                    scrollBottomAnchor.scrollIntoView({ behavior: "smooth" });
+                    return;
+                }
 
                 const lineObj = lines[currentLine];
                 const lineText = typeof lineObj === "string" ? lineObj : lineObj.text;
