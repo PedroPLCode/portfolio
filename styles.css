@@ -9,6 +9,7 @@ body {
 
 #terminal-container {
   height: 100dvh;
+  scroll-behavior: smooth;
   overflow-y: auto;
   background-color: #111;
   color: #0f0;
@@ -52,15 +53,22 @@ ul li {
 }
 
 section {
-    margin-top: 3em;
+    margin-top: 4em;
+    padding-top: 3em;
+    border-top: 1px solid #00ff99;
+}
+
+article {
+    margin-top: 0;
     padding-top: 2em;
+    padding-bottom: 1em;
     border-top: 1px solid #00ff99;
 }
 
 footer {
     margin-top: 4em;
     padding-top: 3em;
-    padding-bottom: 4em;
+    padding-bottom: 3em;
     border-top: 1px solid #00ff99;
     font-size: 1em;
 }
