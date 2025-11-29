@@ -1,12 +1,12 @@
 {
   "lines": [
     {
-      "text": "<header><h2>pedro@CodeCave</h2><h4>Penetration Tester & Software Developer</h4><p>keywords: Backend, Python, Django, Flask,<br>Cybersecurity, Penetration Testing, Linux,<br>Frontend, Web Development, JavaScript, React.</p></header>",
+      "text": "<header><h2>pedro@CodeCave</h2><h3>Penetration Tester & Software Developer</h3><p>keywords: Backend, Python, Django, Flask,<br>Cybersecurity, Penetration Testing, Linux,<br>Frontend, Web Development, JavaScript, React.</p></header>",
       "typingSpeed": 25,
       "nextLineDelay": 10
     },
     {
-      "text": "<section><h3>about_me</h3><h4>python & cybersecurity</h4><ul><li><span>Frontend & Backend Software Developer.<br>Penetration Tester with Linux/FreeBSD<br>and web applications security expertise.<br>Passionate about clean code, cybersecurity<br>and open-source software.</span></li><li><span>I enjoy performing Black Box security audits<br>and improving code quality.</span></li><li><span>At Backend I love to code using<br>Python, Flask, Django, Numpy, Pandas.</span></li><li><span>At Frontend I have experience with<br>JavaScript, React.js, Redux.</span></li></ul></section>",
+      "text": "<section><h3>about_me</h3><h4>python & cybersecurity</h4><ul><li><span>Frontend & Backend Software Developer.</span></li><li><span>Penetration Tester with Linux/FreeBSD<br>and web applications security expertise.</span></li><li><span>Passionate about clean code, cybersecurity<br>and open-source software.</span></li><li><span>I enjoy performing Black Box security audits<br>and improving code quality.</span></li><li><span>At Backend I love to code using<br>Python, Flask, Django, Numpy, Pandas.</span></li><li><span>At Frontend I have experience with<br>JavaScript, React.js, Redux.</span></li><li><span>Recreational cave diver and rock climber.</span></li></ul></section>",
       "typingSpeed": 25,
       "nextLineDelay": 10
     },
